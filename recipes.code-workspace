@@ -1,0 +1,36 @@
+{
+    "folders": [
+        {
+            "path": ".",
+            "name": "🍜 Recipes"
+        }
+    ],
+    "extensions": {
+        "recommendations": [
+            "esbenp.prettier-vscode",
+            "eamodio.gitlens",
+            "aaron-bond.better-comments",
+            "DavidAnson.vscode-markdownlint",
+            "bradlc.vscode-tailwindcss"
+        ]
+    },
+    "settings": {
+        "search.exclude": {
+            "**/.next": true,
+            "**/node_modules": true
+        },
+        "eslint.codeActionsOnSave.mode": "all",
+        "eslint.run": "onType",
+        "editor.tabSize": 4,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false
+        },
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "prettier.prettierPath": "node_modules/prettier/index.cjs",
+        "[markdown]": {
+            "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+        },
+        "typescript.preferences.importModuleSpecifier": "relative"
+    }
+}
